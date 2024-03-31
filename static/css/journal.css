@@ -162,11 +162,17 @@ h6 {
   .site-header h1,
   .site-nav h1 {
     margin-bottom: .5rem; }
-
+.site-wide-nav a {
+  margin: 3px;  
+}
+.site-header p {
+  font-style: italic;
+  margin: 10px;
+}
 .site-nav a::before {
   content: '\2190';
-  margin-right: .25rem; }
-
+  margin-right: .25rem; 
+}
 .site-footer {
   margin: 3rem 0 0;
   font-size: .8125rem; }
@@ -205,3 +211,8 @@ h6 {
 
 .hljs {
   font-size: .875rem; }
+
+.image_list_container {
+  display: flexbox;
+  flex-direction: column;
+}
